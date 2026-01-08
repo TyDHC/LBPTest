@@ -11,15 +11,7 @@ This repository contains a template for blueprint-driven formalization projects 
 Ensure that you have a functioning Lean 4 installation. If you do not, please follow
 the [Lean installation guide](https://leanprover-community.github.io/get_started.html).
 
-## Use this Template
 
-To create a new repository using this template, ensure you are on the correct repository page
-([LeanProject](https://github.com/pitmonticone/LeanProject)) and then follow these steps:
-
-1. Click the **Use this template** button located at the top right of the repository page.
-2. Click the **Create a new repository** button.
-3. Select the account or organization where you want to create it, choose a name for the new
-repository, and click the **Create repository** button.
 
 
 Useful links:
