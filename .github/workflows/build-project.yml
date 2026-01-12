@@ -60,3 +60,9 @@ jobs:
 
       - name: Build project
         run: ~/.elan/bin/lake build Project
+
+      - name: Build the project
+        uses: leanprover/lean-action@434f25c2f80ded67bba02502ad3a86f25db50709 # v1.3.0
+        with:
+          use-github-cache: false
+          build-args: :blueprint
