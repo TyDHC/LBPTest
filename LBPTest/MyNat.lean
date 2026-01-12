@@ -1,8 +1,6 @@
 import Architect
 import Mathlib.Tactic
 
-namespace MyNat
-
 
 
 @[simp, blueprint
@@ -18,7 +16,3 @@ theorem zero_add_test (a : ℕ) : a + 0 = a := by
 theorem add_comm_test (a b : ℕ) : a + b = b + a := by
   /-- Proof by induction on $b$. -/
   grind
-
-
-
-end MyNat

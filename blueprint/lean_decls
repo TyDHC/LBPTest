@@ -1,5 +1,5 @@
 test1
 test2
 test3
-MyNat.zero_add_test
-MyNat.add_comm_test
+zero_add_test
+add_comm_test
