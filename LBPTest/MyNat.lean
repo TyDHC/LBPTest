@@ -4,8 +4,7 @@ import Mathlib.Tactic
 
 
 @[simp, blueprint
-  (statement := /-- For any natural number $a$, $0 + a = a$,
-    where $+$ is \cref{def:nat-add}. -/)]
+  (statement := /-- For any natural number $a$, $0 + a = a$ -/)]
 theorem zero_add_test (a : ℕ) : a + 0 = a := by
   /-- The proof follows by induction. -/
   grind
