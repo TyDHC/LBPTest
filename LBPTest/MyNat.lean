@@ -18,7 +18,7 @@ def add (a b : MyNat) : MyNat :=
 
 @[simp, blueprint
   (statement := /-- For any natural number $a$, $0 + a = a$,
-    where $+$ is \cref{def:nat-add}. -/)]
+    where $+$ is \ref{def:nat-add}. -/)]
 theorem zero_add (a : MyNat) : add zero a = a := by
   /-- The proof follows by induction. -/
   induction a <;> simp [*, add]
@@ -36,10 +36,10 @@ theorem add_comm (a b : MyNat) : add a b = add b a := by
   induction b with
   | zero =>
     have := trivial
-    /-- The base case follows from \cref{MyNat.zero_add}. -/
+    /-- The base case follows from \ref{MyNat.zero_add}. -/
     simp [add]
   | succ b ih =>
-    /-- The inductive case follows from \cref{MyNat.succ_add}. -/
+    /-- The inductive case follows from \ref{MyNat.succ_add}. -/
     sorry_using [succ_add]  -- the `sorry_using` tactic declares dependency
 
 -- Additional content omitted
